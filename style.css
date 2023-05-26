@@ -1,9 +1,12 @@
 *{
     padding: 0%;
     margin: 0%;
+    
 }
 
-
+.backg{
+    background-color: #E8EBF5;
+}
 .grid{
     display: grid;
     grid-template-columns: repeat(4,20%);
@@ -19,15 +22,17 @@ justify-content: flex-end;
 }
 #insider1{
     display: grid;
+    flex-direction: row;
     align-content: flex-start;
     grid-template-columns: repeat(2,50%);
-    background-color: aliceblue;
     width: 500px;
+    color: white;
 }
 #face{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    font-size: x-large;
+    font-size: 40px;
+    align-items: end;
     width: 350px;
 }
 
@@ -41,11 +46,78 @@ justify-content: flex-end;
 .insider2{
     display: flex;
     justify-content: center;
-    background-color: red;
     margin-left: 10px;
     margin-right: 10px;
 }
 .x{
     height: 630px;
+    width: 350px;
+}
+.datos{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+.datos div{
+    display:flex;
+    flex-direction: column;
+    width: 200px;
 }
 
+#datosp{
+    display: flex;
+    align-content: baseline;
+    flex-direction: row;
+    margin-left: 70px;
+    width: 200px;
+}
+#datosq{
+    display: flex;
+    align-content: baseline;
+    flex-direction: row;
+    margin-left: 60px;
+    width: 200px;
+}
+#under{
+display: flex;
+align-content:start;
+height: 1px;
+width: 50px;
+}
+#middle{
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:flex-start;
+    
+}
+.fond{
+    color: #E8EBF5;
+}
+.familyL{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:medium;
+}
+.familyM{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:small;
+}
+.familyS{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    color: #3D3E40;
+}
+.familySE{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #8D8F92;
+    font-size: 15px;
+}
+.familyC{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #143C77;
+    font-size: 15px;
+}
